@@ -73,7 +73,7 @@ with open(input_file, encoding='UTF-8') as f:
         users.append(user)
 mode = int(input("Enter 1 to send by user ID or 2 to send by username: "))
 print("Enter the number")
-messages = ["How are you?", "Hi", "do you want to gotrained?"]
+messages = ["How are you?", "Hi", "Do you want to get trained?"]
 for i in range(len(messages)):
     print(f"{i} - {messages[i]}")
 msg = int(input())    
